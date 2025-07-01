@@ -35,7 +35,7 @@ const LoginPage: React.FC = () => {
         <div className="flex items-center max-w-7xl mx-auto">
           <div className="flex items-center">
             <img 
-              src="https://ibb.co/wZm6RqYn" 
+              src="https://drive.google.com/file/d/1WEwqWh-mA_v8uV-AVkA6CRR6TwBRKyyL/view?usp=sharing" 
               alt="TravClan" 
               className="h-8 w-auto"
               onError={(e) => {
