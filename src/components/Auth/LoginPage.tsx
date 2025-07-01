@@ -32,17 +32,14 @@ const LoginPage: React.FC = () => {
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       {/* Header */}
       <div className="absolute top-0 left-0 right-0 bg-blue-900 text-white p-4">
-        <div className="flex items-center justify-between max-w-7xl mx-auto">
-          <div className="flex items-center">
-            <img 
-              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTIwIDQwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8Y2lyY2xlIGN4PSIxMCIgY3k9IjEwIiByPSI0IiBmaWxsPSIjRkY5NTAwIi8+CjxwYXRoIGQ9Ik0yNSA4SDE1VjMySDI1VjhaTTM1IDhIMjVWMzJIMzVWOFpNNDUgOEgzNVYzMkg0NVY4Wk01NSA4SDQ1VjMySDU1VjhaTTY1IDhINTVWMzJINjVWOFpNNzUgOEg2NVYzMkg3NVY4Wk04NSA4SDc1VjMySDg1VjhaTTk1IDhIODVWMzJIOTVWOFpNMTA1IDhIOTVWMzJIMTA1VjhaIiBmaWxsPSIjRkZCNzQwIi8+Cjx0ZXh0IHg9IjMwIiB5PSIyNSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iI0ZGQjc0MCI+Q2xhbjwvdGV4dD4KPHN2Zz4K" 
-              alt="TravClan" 
-              className="h-8"
-            />
-          </div>
-          <div className="flex items-center space-x-4">
-            <button className="text-blue-200 hover:text-white text-sm">Sign up</button>
-            <button className="text-blue-200 hover:text-white text-sm">Log in</button>
+        <div className="flex items-center max-w-7xl mx-auto">
+          <div className="flex items-center space-x-3">
+            <div className="flex items-center space-x-2">
+              <div className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center">
+                <div className="w-2 h-2 bg-orange-300 rounded-full"></div>
+              </div>
+              <span className="text-xl font-bold text-orange-400">Clan</span>
+            </div>
           </div>
         </div>
       </div>
