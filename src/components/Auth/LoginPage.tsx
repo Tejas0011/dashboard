@@ -34,8 +34,7 @@ const LoginPage: React.FC = () => {
       <div className="absolute top-0 left-0 right-0 bg-blue-900 text-white p-4">
         <div className="flex items-center max-w-7xl mx-auto">
           <div className="flex items-center">
-            <img 
-              src="https://framerusercontent.com/images/0NnvWvDHmrKxyqwV193PbmfhPfg.png" 
+            <img src="https://framerusercontent.com/images/0NnvWvDHmrKxyqwV193PbmfhPfg.png" 
               alt="TravClan Logo" 
               className="h-8 w-auto"
               onError={(e) => {
