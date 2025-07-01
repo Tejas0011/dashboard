@@ -33,7 +33,13 @@ const LoginPage: React.FC = () => {
       {/* Header */}
       <div className="absolute top-0 left-0 right-0 bg-blue-900 text-white p-4">
         <div className="flex items-center justify-between max-w-7xl mx-auto">
-          <h1 className="text-xl font-semibold">TravClan</h1>
+          <div className="flex items-center">
+            <img 
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTIwIDQwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8Y2lyY2xlIGN4PSIxMCIgY3k9IjEwIiByPSI0IiBmaWxsPSIjRkY5NTAwIi8+CjxwYXRoIGQ9Ik0yNSA4SDE1VjMySDI1VjhaTTM1IDhIMjVWMzJIMzVWOFpNNDUgOEgzNVYzMkg0NVY4Wk01NSA4SDQ1VjMySDU1VjhaTTY1IDhINTVWMzJINjVWOFpNNzUgOEg2NVYzMkg3NVY4Wk04NSA4SDc1VjMySDg1VjhaTTk1IDhIODVWMzJIOTVWOFpNMTA1IDhIOTVWMzJIMTA1VjhaIiBmaWxsPSIjRkZCNzQwIi8+Cjx0ZXh0IHg9IjMwIiB5PSIyNSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iI0ZGQjc0MCI+Q2xhbjwvdGV4dD4KPHN2Zz4K" 
+              alt="TravClan" 
+              className="h-8"
+            />
+          </div>
           <div className="flex items-center space-x-4">
             <button className="text-blue-200 hover:text-white text-sm">Sign up</button>
             <button className="text-blue-200 hover:text-white text-sm">Log in</button>
@@ -76,18 +82,9 @@ const LoginPage: React.FC = () => {
 
         {/* Information Text */}
         <div className="text-center">
-          <p className="text-sm text-gray-600 mb-4">
+          <p className="text-sm text-gray-600">
             Use your TravClan Google account to access the Employee Benefits Dashboard
           </p>
-          
-          <div className="border-t border-gray-200 pt-4">
-            <p className="text-sm text-gray-600">
-              Don't have an account?{' '}
-              <a href="#" className="text-blue-600 hover:text-blue-500 font-medium transition-colors">
-                Contact your administrator
-              </a>
-            </p>
-          </div>
         </div>
       </div>
 
