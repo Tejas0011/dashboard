@@ -1,0 +1,6 @@
+import { createClient } from '@supabase/supabase-js';
+
+const supabase = createClient(
+  'https://supabase.com/dashboard/project/iolzccljmlwctomndjrq/settings/api-keys', // Project URL
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlvbHpjY2xqbWx3Y3RvbW5kanJxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTEwMjA2MDAsImV4cCI6MjA2NjU5NjYwMH0.tksEU5ArCwEmnp_-z9CM4-g9l2OSPKzhH6JTK7Lcpo8'            // Public Key
+);
