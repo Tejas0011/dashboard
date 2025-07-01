@@ -34,11 +34,9 @@ const LoginPage: React.FC = () => {
       <div className="absolute top-0 left-0 right-0 bg-blue-900 text-white p-4">
         <div className="flex items-center max-w-7xl mx-auto">
           <div className="flex items-center space-x-3">
-            <div className="flex items-center space-x-2">
-              <div className="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center">
-                <div className="w-2 h-2 bg-orange-300 rounded-full"></div>
-              </div>
-              <span className="text-xl font-bold text-orange-400">Clan</span>
+            <div className="flex items-center space-x-1">
+              <div className="w-5 h-5 bg-orange-400 rounded-full"></div>
+              <span className="text-2xl font-bold text-orange-400">TravClan</span>
             </div>
           </div>
         </div>
